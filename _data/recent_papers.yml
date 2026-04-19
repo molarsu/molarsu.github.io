@@ -1,0 +1,72 @@
+- title: "RaPA: Enhancing Transferable Targeted Attacks via Random Parameter Pruning"
+  year: 2026
+  venue: "CVPR 2026"
+  authors: "Tongrui Su, Qingbin Li, Shengyu Zhu, Wei Chen, Xueqi Cheng"
+  summary: "RaPA improves targeted transfer attacks by randomizing parameter pruning during optimization so adversarial examples depend less on a narrow subset of surrogate weights."
+  image: "/images/recent-papers/rapa-overview.png"
+  image_alt: "Overview figure for the RaPA paper"
+  arxiv_url: "https://arxiv.org/abs/2504.18594"
+  github_url: "https://github.com/molarsu/RaPA"
+  tags:
+    - Adversarial Attack
+    - Transferability
+    - Vision
+
+- title: "How Do LLM-Generated Texts Impact Term-Based Retrieval Models?"
+  year: 2025
+  venue: "WSDM 2025"
+  authors: "Wei Huang, Keping Bi, Yingqiong Cai, Wei Chen, Jiafeng Guo, Xueqi Cheng"
+  summary: "This work analyzes how machine-generated documents reshape term distributions and studies whether classic retrieval models are biased toward text source or simply toward matching query term statistics."
+  image: "/images/recent-papers/llm-retrieval-analysis.png"
+  image_alt: "Analysis figure for the LLM-generated text retrieval paper"
+  arxiv_url: "https://arxiv.org/abs/2508.17715"
+  paper_url: "https://arxiv.org/html/2508.17715"
+  paper_label: "Paper"
+  tags:
+    - Information Retrieval
+    - LLMs
+    - Text Analysis
+
+- title: "Evaluating Implicit Bias in Large Language Models by Attacking From a Psychometric Perspective"
+  year: 2025
+  venue: "Findings of ACL 2025"
+  authors: "Yuchen Wen, Keping Bi, Wei Chen, Jiafeng Guo, Xueqi Cheng"
+  summary: "The paper introduces psychometric attacks and bilingual benchmarks to reveal implicit bias in LLMs more effectively than standard prompting baselines."
+  image: "/images/recent-papers/implicit-bias-attack-system.png"
+  image_alt: "Attack system diagram for the implicit bias evaluation paper"
+  arxiv_url: "https://arxiv.org/abs/2406.14023"
+  github_url: "https://github.com/yuchenwen1/ImplicitBiasPsychometricEvaluation"
+  project_url: "https://yuchenwen1.github.io/ImplicitBiasEvaluation/"
+  tags:
+    - LLM Safety
+    - Bias Evaluation
+    - Benchmark
+
+- title: "CausalDiff: Causality-Inspired Disentanglement via Diffusion Model for Adversarial Defense"
+  year: 2024
+  venue: "NeurIPS 2024"
+  authors: "Mingkun Zhang, Keping Bi, Wei Chen, Quanrun Chen, Jiafeng Guo, Xueqi Cheng"
+  summary: "CausalDiff disentangles label-causative and non-causative factors in diffusion-based defense to improve robustness against unseen adversarial attacks."
+  image: "/images/recent-papers/causaldiff-scm.png"
+  image_alt: "Causal graph illustration for the CausalDiff paper"
+  arxiv_url: "https://arxiv.org/abs/2410.23091"
+  github_url: "https://github.com/CAS-AISafetyBasicResearchGroup/CausalDiff"
+  tags:
+    - Robustness
+    - Diffusion Models
+    - Causality
+
+- title: "CLIPure: Purification in Latent Space via CLIP for Adversarially Robust Zero-Shot Classification"
+  year: 2025
+  venue: "ICLR 2025"
+  authors: "Mingkun Zhang, Keping Bi, Wei Chen, Jiafeng Guo, Xueqi Cheng"
+  summary: "CLIPure pushes purification into CLIP latent space and improves zero-shot robustness without relying on attack-specific adversarial training."
+  image: "/images/recent-papers/clipure-zero-shot.png"
+  image_alt: "Zero-shot classification figure for the CLIPure paper"
+  paper_url: "https://openreview.net/forum?id=TQ2ZOy6miT"
+  paper_label: "Paper"
+  github_url: "https://github.com/TMLResearchGroup-CAS/CLIPure"
+  tags:
+    - Zero-shot Learning
+    - Robustness
+    - CLIP

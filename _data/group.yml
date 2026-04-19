@@ -1,0 +1,57 @@
+students:
+  - name: Mingkun Zhang
+    note: Co-supervised with Prof. Xueqi Cheng
+    image: mingkun.jpg
+  - name: Wei Huang
+    note: Co-supervised with Prof. Xueqi Cheng
+    image: huangwei.jpg
+  - name: Shiqi Sun
+    image: shiqi.jpg
+  - name: Yuchen Wen
+    image: Yuchen.jpg
+  - name: Qingbin Li
+    image: qingbin.jpg
+  - name: Likun Wang
+    note: Co-supervised with Prof. Xueqi Cheng
+    image: likun.jpg
+  - name: Wenjie Zhou
+    image: wenjie.jpg
+  - name: Hongtao Zhang
+    image: hongtao.jpg
+  - name: Junjie Nan
+    image: Junjie.jpg
+  - name: Yangyang Li
+    image: yangyang.jpg
+  - name: Tongrui Su
+    image: tongrui-zhengjian.jpg
+
+alumni:
+  - name: Bohan Wang
+    affiliation: Alibaba Qwen
+    url: https://bhwangfy.github.io
+  - name: Ling Pan
+    affiliation: HKUST
+    url: https://ling-pan.github.io/
+  - name: Yue Wang
+    affiliation: Zhongguancun Academy
+    url: https://www.bjzgca.edu.cn/teacher/4b6e5ed12ce4492da61c808b9d48a44a
+  - name: Xufang Luo
+    affiliation: Microsoft Research
+  - name: Li He
+    affiliation: Qiyuan Lab
+  - name: Shizhao Sun
+    affiliation: Microsoft Research
+  - name: Qi Meng
+    affiliation: AMSS CAS
+    url: http://homepage.amss.ac.cn/research/homePage/a8636013d63440498442e91a549202f1/myHomePage.html
+  - name: Haifang Li
+    affiliation: Baidu
+  - name: Fei Tian
+    affiliation: Meta
+  - name: Di He
+    affiliation: Peking University
+    url: https://dihe-pku.github.io/
+  - name: Xinxin Yang
+    affiliation: Inno Asset Management
+  - name: Lei Yao
+    affiliation: Sunshine Insurance

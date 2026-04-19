@@ -1,39 +1,61 @@
 ---
 permalink: /
-title: "Wei Chen"
+title: "Tongrui Su"
 excerpt: "About"
 author_profile: true
-redirect_from: 
+classes: home-page
+redirect_from:
   - /about/
   - /about.html
 ---
 
-My research area is machine learning, mainly focusing on its basic methods and theory. My current research interest is trustworthy machine learning, to make the training, the model, and the decision-making of machine learning (especially deep learning) be interpretable and controllable by human. Specifically, we are investigating the training dynamics of deep learning, the trustworthy model for robustness, and AI safety eveluation and enhancement. Previously, I did research in distributed machine learning and statistical ranking theory. Before joined CAS, I was the manager of [Computing and Learning Theory Group](https://www.microsoft.com/en-us/research/group/computing-and-learning-theory-group/) in Microsoft Research Asia and the co-chair of [MSR Asia Theory Center](https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/articles/microsoft-research-asia-establishes-theory-center-to-strengthen-theoretical-foundation-of-ai/). I obtained my B.S. degree in Statistics from Shandong University in 2006 and Ph.D. degree in Probability and Mathematical Statistics from Chinese Academy of Sciences in 2011 supervised by Prof. [Zhi-Ming Ma](http://homepage.amss.ac.cn/research/homePage/8eb59241e2e74d828fb84eec0efadba5/myHomePage.html). I was [named by Forbes as one of the 50 Top Women in Tech in China](https://www.forbeschina.com/business/%E5%95%86%E4%B8%9A/55906) , [named by MIT Tech Review and DeepTech as one of the Intelligent Computing Innovators China](https://www.mittrchina.com/news/detail/13257), and was selected for the Xiaomi Young Talents Program in Universitiy of Chinese Academy of Sciences.
+<div class="publication-hero">
+  <p class="publication-hero__eyebrow">About</p>
+  <p class="publication-hero__lede">I am currently an M.S. student at the Institute of Computing Technology, Chinese Academy of Sciences, advised by Prof. Wei Chen. I received my bachelor's degree from Beijing Institute of Technology. My research interests are diverse, including the optimization, robustness, and post-training alignment of large language models.</p>
+  <div class="publication-hero__actions">
+    <a class="publication-pill" href="mailto:molarsu18@gmail.com">Email</a>
+    <a class="publication-pill" href="https://github.com/molarsu">GitHub</a>
+  </div>
+</div>
 
- 
+## Education
 
-## News
-* Feb 2026: Our paper on transferable attack is accepted by CVPR.
-* June 2025 - Jan 2026: Our papers on the AI Safety Evaluation in terms of implicit bias, implicit hate speech, and source bias, are accepted by ACL2025, WebConf2026, and WSDM2026, recpectively.
-* August 2025: Our work BSFA on pretraining acceleration is accepted by EMNLP 2025 as an oral paper.
-* July 2024 - Jan 2025: Our serial work on adversarival robustness, i.e., COUP, CausalDiff, Clipure and NAPPure, are accepted by ECAI2024, NeurIPS2024, ICLR2025 and ICCV2015, respectively.
-* May 2024: Our paper on Adam's convergence is accepted by SIGKDD2024.
-* Dec 2023: We are organizing ICLR 2024 workshop "Bridging the Gap between Practice and Theory in Deep Learning (BGPT)". Welcome to join！For more details, please access to the workshop website [BGPT](https://sites.google.com/view/bgpt-iclr24/home).
-* Dec 2023: Our paper "Perturbation-Invariant Adversarial Training for Neural Ranking Models: Improving the Effectiveness-Robustness Trade-Off" is accepted by AAAI 2024.
-* Oct 2023: I am serving as the sponsorship chair of [CLeaR 2024](https://www.cclear.cc/2024). If you are interested to be a sponsor, please contact me.
-* Sep 2023: Our paper "Closing the Gap between the Upper Bound and Lower Bound of Adam's Iteration Complexity" is accepted by NeurIPS2023.
-* August 2023：Four of our papers are accepted by CIKM 2023, including one paper on causal-inspired text summaraization and one paper on trustworthy IR. 
-* May 2023: Our paper "Convergence of AdaGrad for Non-convex Objectives: Simple Proofs and Relaxed Assumptions" is accepted by COLT2023.
-* April 2023: We organize the [WINDSMATH (Women in Data Science and Mathematics) Seminar](https://windsmath-seminar.github.io/). Welcome to join!
-* April 2023：Our paper "Topic-oriented Adversarial Attacks against Black-box Neural Ranking Models" is accepted by SIGIR 2023.
-* Sep 2022: Our paper "Does Momentum Change the Implicit Regularization on Seperable Data?" is accepted by NeurIPS 2022. 
-* August 2022: Our paper "Certified Robustness to Word Substitution Ranking Attack for Neural Ranking Models. " is accepted by CIKM 2022.
-* June 2022: We have two papers accepted by ICLR 2022. One is about policy optimization in RL, the other is about the difussion models. 
-* April 2022: we oragnize "[Causal Inference and Machine Learning](https://www.microsoft.com/en-us/research/event/2022-causal-inference-and-machine-learning-workshop/)" workshop with AMSS CAS, MSRA Theory Center, and Nankai University, which was held online and in-person at ICT CAS.
-* April 2022: I give a talk at [DataSig Lab](https://www.datasig.ac.uk/presentations) of Oxford University by the invitation from Prof. Terry Lyons.
-* Feb 2022: I joined Institute of Computing Techonology, Chinese Academy of Sciences.
+* **Institute of Computing Technology, Chinese Academy of Sciences**, M.S. student, 2025.09 - present. Advisor: Prof. Wei Chen.
+* **Beijing Institute of Technology**, B.Eng., 2021.08 - 2025.06.
 
-## We Are Hiring!
+## Selected Publications
 
-We are recruiting all-levels (researchers, postdocs and Ph.D. students) who have great passion in basic research to make AI safe. If you have solid CS and/or math background (especially in machine learning), welcome to send your resume to me (chenwei2022 AT ict.ac.cn). Please check [this page](https://weichen-cas.github.io/Group/) for details about our group.
+<div class="publication-highlight-grid">
+  <article class="publication-feature-card">
+    <span class="publication-feature-card__meta">2026</span>
+    <h3>RaPA: Enhancing Transferable Targeted Attacks via Random Parameter Pruning</h3>
+    <p>Tongrui Su, Qingbin Li, Shengyu Zhu, Wei Chen, Xueqi Cheng</p>
+    <p>This work studies the over-reliance of targeted transfer attacks on proxy-model parameters and introduces a random-pruning-based self-ensemble strategy that substantially improves transferability.</p>
+    <p class="publication-feature-card__venue">CVPR 2026</p>
+    <p><a href="https://github.com/molarsu/RaPA">Code</a></p>
+  </article>
 
+  <article class="publication-feature-card">
+    <span class="publication-feature-card__meta">2024</span>
+    <h3>Exploring Structured Semantic Priors Underlying Diffusion Score for Test-time Adaptation</h3>
+    <p>Mingjia Li, Shuang Li, Tongrui Su, Longhui Yuan, Jian Liang, Wei Li</p>
+    <p>DUSA extracts structured semantic priors from a single diffusion-score timestep, avoiding the heavy Monte Carlo-style likelihood estimation used by prior methods and achieving state-of-the-art performance on multiple test-time adaptation tasks.</p>
+    <p class="publication-feature-card__venue">NeurIPS 2024</p>
+    <p><a href="https://github.com/BIT-DA/DUSA">Code</a></p>
+  </article>
+</div>
+
+## Selected Awards
+
+<div class="publication-highlight-grid">
+  <article class="publication-feature-card">
+    <span class="publication-feature-card__meta">ACM</span>
+    <h3>Programming Contests</h3>
+    <ul>
+      <li>Silver Medal, The 2023 ICPC Asia Hefei Regional Contest.</li>
+      <li>Silver Medal, The 2023 ICPC Asia Xi'an Regional Contest.</li>
+      <li>Silver Medal, The 9th China Collegiate Programming Contest (Shenzhen).</li>
+      <li>First Prize in Beijing, The 14th Lanqiao Cup Provincial Software Competition.</li>
+    </ul>
+  </article>
+</div>

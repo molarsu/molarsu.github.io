@@ -16,7 +16,9 @@ gem "github-pages", group: :jekyll_plugins
 
 # gem "jekyll"
 
-gem "wdm", "~> 0.1.0" if Gem.win_platform?
+# `wdm` is optional and fails to build on newer RubyInstaller releases.
+# Jekyll can still serve correctly without it; file watching falls back to polling.
+gem "tzinfo-data", platforms: %i[mingw x64_mingw mswin jruby]
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
