@@ -1,0 +1,8 @@
+Configuration file: D:/桌面/codex/02_projects/molarsu.github.io/_config.yml
+            Source: D:/桌面/codex/02_projects/molarsu.github.io
+       Destination: D:/桌面/codex/02_projects/molarsu.github.io/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+       Jekyll Feed: Generating feed for posts
+                    done in 5.372 seconds.
+jekyll 3.10.0 | Error:  incompatible character encodings: UTF-8 and GBK
